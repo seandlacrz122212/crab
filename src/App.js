@@ -1,26 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+ 
+import Login from '../src/Pages/Login';
+import Dashboard from '../src/Pages/Dashboard';
+import Main from '../src/Pages/Main';
 
+ 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Crab is also called Alimango! 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React? Click here.
-
-        </a>
-      </header>
+      <BrowserRouter>
+            <Switch>
+              <Route path="/login" component={Login} />
+              <Route path="/dashboard" component={() => <Dashboard authorized={true} />} />
+              <Route path="/main" component={Main} />
+            </Switch>
+      </BrowserRouter>
+      
     </div>
   );
 }
-
+ 
 export default App;
