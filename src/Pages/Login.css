@@ -1,0 +1,97 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+input, button {
+    background:none;
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+form {
+    display: block;
+    position: relative;
+}
+
+form:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    left: -5px;
+    bottom: -5px;
+    z-index: 1;
+}
+
+.form-inner {
+    position: relative;
+    display: block;
+    padding: 45px;
+    z-index: 2;
+}
+
+form .form-inner h2 {
+    color: brown;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+form .form-inner .form-group {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: rgba(15, 37, 16, 0.651);
+    font-weight: 550;
+    font-size: 20px;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.form-inner .form-group:focus-within label {
+    color: #FE4880;
+}
+
+input {
+    right:0;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+input:focus {
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px 10px;
+    width: 100px;
+    background-image: linear-gradient(to bottom right, rgb(36, 112, 93), rgb(148, 253, 61));
+    border-radius: 8px;
+    background-size: 200%;
+    background-position: 0%;
+    transition: 0.4s;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-position: 100% 0%;
+    background-image: linear-gradient(to bottom right, rgb(192, 255, 163), rgb(92, 244, 255));
+}
+ */

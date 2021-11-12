@@ -1,0 +1,54 @@
+label {
+  display: inline-block;
+  margin: 10px 0;
+} 
+
+input[type='text'],
+input[type='number'] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.btn-add {
+    cursor: pointer;
+    background-color: #1df80071;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 30px;
+    padding: 10px;
+    width: 100px;
+  }
+  
+  .btn-add:focus,
+  .delete:focus {
+    outline: 0;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    width: 300px;
+  }
+  
+  .new-transaction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgba(1, 41, 0, 0.63);
+    font-weight: 700;
+    padding: 0px; 
+    right: 0;
+  }
+  
+ 
